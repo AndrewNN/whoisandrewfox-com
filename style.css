@@ -278,6 +278,10 @@ footer {
 
 /* Responsive Design */
 @media (max-width: 768px) {
+    #hero img {
+        object-position: left top;
+    }
+
     nav {
         padding: 16px 20px;
         flex-direction: column;
