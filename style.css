@@ -24,9 +24,9 @@ nav {
     position: fixed;
     top: 0;
     width: 100%;
-    background: rgba(255, 255, 255, 0.98);
-    border-bottom: 1px solid #000;
-    padding: 20px 40px;
+    background: rgba(255, 255, 255, 0.95);
+    border-bottom: 1px solid #ddd;
+    padding: 12px 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -34,9 +34,9 @@ nav {
 }
 
 nav a {
-    color: #000;
+    color: #666;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 11px;
     letter-spacing: 0.5px;
     transition: opacity 0.3s;
 }
@@ -47,7 +47,7 @@ nav a:hover {
 
 .nav-menu {
     display: flex;
-    gap: 30px;
+    gap: 24px;
 }
 
 /* Hero */
@@ -59,10 +59,10 @@ nav a:hover {
 
 #hero img {
     position: absolute;
-    top: 60px;
+    top: 48px;
     left: 0;
     width: 100%;
-    height: calc(100% - 60px);
+    height: calc(100% - 48px);
     object-fit: cover;
     object-position: center top;
     filter: grayscale(20%) brightness(0.85);
