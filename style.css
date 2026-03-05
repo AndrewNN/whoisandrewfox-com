@@ -239,12 +239,33 @@ a:hover {
 
 .collab h3 {
     font-size: 16px;
-    margin-bottom: 8px;
+    margin-bottom: 4px;
+}
+
+.collab h3 a {
+    text-decoration: none;
+}
+
+.collab h3 a:hover {
+    text-decoration: underline;
+}
+
+.collab .venue {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #999;
+    margin-bottom: 12px;
 }
 
 .collab p {
     font-size: 13px;
     color: #666;
+    line-height: 1.7;
+    margin-bottom: 8px;
+}
+
+.collab p:last-child {
     margin-bottom: 0;
 }
 
