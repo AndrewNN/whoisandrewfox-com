@@ -282,6 +282,10 @@ footer {
 
 /* Responsive Design */
 @media (max-width: 768px) {
+    #hero {
+        height: 100vh;
+    }
+
     #hero img {
         object-position: center top;
     }
