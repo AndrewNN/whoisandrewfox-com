@@ -60,10 +60,12 @@ nav a:hover {
 #hero img {
     position: absolute;
     top: 48px;
-    left: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 800px;
     width: 100%;
     height: calc(100% - 48px);
-    object-fit: cover;
+    object-fit: contain;
     object-position: center top;
     filter: grayscale(20%) brightness(0.85);
 }
@@ -279,7 +281,7 @@ footer {
 /* Responsive Design */
 @media (max-width: 768px) {
     #hero img {
-        object-position: left top;
+        object-position: center top;
     }
 
     nav {
