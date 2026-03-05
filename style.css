@@ -62,13 +62,14 @@ nav a:hover {
     content: '';
     position: absolute;
     top: 48px;
-    left: 0;
-    width: 100%;
-    height: calc(100% - 48px);
+    left: 50%;
+    width: 200%;
+    height: calc(200% - 96px);
     background-image: url('hero3.jpg');
     background-size: cover;
     background-position: center top;
     filter: blur(40px) grayscale(20%) brightness(0.75);
+    transform: translateX(-50%);
     z-index: 1;
 }
 
@@ -79,7 +80,7 @@ nav a:hover {
     transform: translateX(-50%);
     width: 100%;
     max-width: 1200px;
-    height: calc(100% - 48px);
+    height: calc(100% - 51px);
     object-fit: cover;
     object-position: center top;
     filter: grayscale(20%) brightness(0.85);
