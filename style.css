@@ -55,16 +55,17 @@ nav a:hover {
     position: relative;
     height: 100vh;
     overflow: hidden;
+    border-bottom: none;
 }
 
 #hero img {
     position: absolute;
-    top: 48px;
+    top: 45px;
     left: 50%;
     transform: translateX(-50%);
     width: 100%;
     max-width: 1200px;
-    height: calc(100% - 48px);
+    height: calc(100% - 45px);
     object-fit: cover;
     object-position: center top;
     filter: grayscale(20%) brightness(0.85);
