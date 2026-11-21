@@ -5,3 +5,24 @@ node_modules/
 hero1.jpg
 hero2.jpg
 img/
+
+
+# macOS
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Node
+npm-debug.log*
+
+# Environment / secrets
+.env.local
+.env.*.local
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
